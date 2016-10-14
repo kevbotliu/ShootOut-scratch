@@ -76,8 +76,7 @@ public class GamePanel
         this.gsm.tick();
     }
 
-    public void paintComponent(Graphics g)
-    {
+    public void paintComponent(Graphics g) {
         this.gsm.draw(g);
     }
 
